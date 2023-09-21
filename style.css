@@ -1,0 +1,307 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  
+}
+body{
+    background-color: black;
+    
+}
+.header{
+    background-color:maroon;
+    width:100%;
+    height:100px;  
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+}
+nav{ 
+    padding: 30px 30px;
+    text-align: right;
+}
+nav a{
+    color:white;
+    display:flex;
+    font-size: 20px;
+    width:100px;
+    text-decoration: none;
+
+    display:inline-block;
+
+}
+nav a:hover{
+    background-color: pink;
+}
+.type h1{
+    font-family: "Incosolata", Consolas, monospace;
+    font-size: 4em;
+    color: #d7b94c;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding:150px 150px;
+
+    height: 200px;
+}
+.type h2{
+    font-family: "Incosolata", Consolas, monospace;
+    font-size: 2em;
+    color:white;
+    align-items: center;
+    text-align: center;
+    height:200px;
+    
+    justify-content: center;
+}
+.typewriter{
+    height:300px;
+    position: relative;
+}
+.typewriter::after{
+    content: '|';
+    position: absolute;
+    right: 0;
+    color:black;
+    background-color: #1d1f20;
+    width: 100%;
+    animation: typing 3s steps(10) alternate infinite,
+                line 1s infinite;
+}
+@keyframes typing{
+    to{
+        width: 0%;
+    }
+}
+@keyframes line {
+    50%{
+        color: transparent;
+    }
+}
+.main
+{
+    background-color:aqua;
+    height: 1500px;
+    width: 100%;
+}
+.text 
+{
+    text-align: center;
+  
+    font-size: 50px;
+    text-decoration: underline black;
+    padding-right: 40px;
+}
+.child
+{
+    
+    height: 1200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.b1
+{
+    background-color:white;
+    width: 27%;
+    height: 300px;
+    text-align: center;
+    padding-top: 65px;
+    color: black;
+    
+}
+.quote1
+{
+    width:100%;
+    height:190px;
+    border-radius: 70px;
+
+   
+}
+
+
+.page1{
+    width:100%;
+    height:190px;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+
+.b2
+{
+    background-color:white;
+    width: 27%;
+    height: 300px;
+    text-align: center;
+    padding-top: 65px;
+    color: black;
+}
+
+.b3
+{
+    background-color:white;
+    width: 27%;
+    height: 300px;
+    text-align: center;
+    padding-top: 70px;
+    color: black;
+}
+.b3 p
+{
+   font-size: 20px;
+    font-family: 'Gill Sans';
+    color:black;
+}
+.b3:hover{
+  
+    scale: 1.1;
+    transition-duration: 1s;
+}
+.b2:hover{
+  
+    scale: 1.1;
+    transition-duration: 1s;
+}
+.b1:hover{
+  
+    scale: 1.1;
+    transition-duration: 1s;
+}
+
+
+.b5
+{
+    background-color:white;
+    width: 27%;
+    height: 300px;
+    text-align: center;
+    padding-top: 65px;
+    color: beige;
+}
+.b5:hover{
+  
+    scale: 1.1;
+    transition-duration: 1s;
+}
+.b4
+{
+    background-color:white;
+    width: 27%;
+    height: 300px;
+    text-align: center;
+    padding-top: 80px;
+    color: beige;
+}
+.b4:hover{
+  
+    scale: 1.1;
+    transition-duration: 1s;
+}
+.show:hover
+{
+     scale: 1.2;
+    transition-duration: 2s; 
+}
+.footer
+{
+    height: 300px;
+    background-color: black;
+}
+.facebook
+{
+    color:white
+    
+}
+.facebook:hover{
+    margin-top: 20px;
+    
+}
+.github
+{
+    color:white
+}
+.github:hover{
+    margin-top: 20px;
+    
+}
+.link
+{
+    color:white
+}
+.link:hover{
+    margin-top: 20px;
+    
+}
+.mail
+{
+    color:white
+}
+.mail:hover{
+    margin-top: 20px;
+    
+}
+.tele
+{
+    color:white
+}
+.tele:hover
+{
+  margin-top: 20px;
+}
+
+.child1
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
+}
+ .quote:after 
+{ content:"Quote Generator";
+    
+
+}
+.quote:hover:after
+{
+    
+    content: "<Quote Generator/>";
+}
+.weather:after 
+{ content:"Weather App";
+    
+}
+.weather:hover:after
+{
+    
+    content: "<Weather App/>";
+}
+.country:after 
+{ content:"Countries App";
+    
+}
+.country:hover:after
+{
+    
+    content: "<Countries App/>";
+}
+
+.page:after 
+{ content:"landing page";
+    
+}
+.page:hover:after
+{
+    
+    content: "<landing page/>";
+}
+.calc:after 
+{ content:"Calculator";
+    
+}
+.calc:hover:after
+{
+    
+    content: "<Calculator/>";
+}
